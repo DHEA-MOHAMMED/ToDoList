@@ -1,0 +1,94 @@
+.h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+form{
+border: 1px solid #eee;
+border-radius: 3px;
+height: 200px;
+width: 400px;
+padding: 10px;
+margin: auto;
+
+
+}
+form .btn{
+    width: 100%;
+
+}
+.list{
+   height: auto;
+}
+.list li{
+    position: relative;
+    height: auto;
+    overflow-wrap: anywhere;
+}
+.list li i{
+    position: absolute;
+    right: 0;
+    
+}
+
+.list{
+overflow: hidden;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media  screen and (min-width:250px)and (max-width: 400px) {
+    form .btn{
+margin-top: 50px;    
+    }
+    form{
+        border: 1px solid #eee;
+        border-radius: 3px;
+        height: 200px;
+        width: auto;
+        padding: 10px;
+        margin: auto;
+        
+        
+        }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  
+            form{
+                border: 1px solid #eee;
+                border-radius: 3px;
+                height: 200px;
+                width: auto;
+                padding: 10px;
+                margin: auto;
+                
+                
+                }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+}
